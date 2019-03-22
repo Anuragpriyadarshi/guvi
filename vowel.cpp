@@ -10,9 +10,12 @@ int main() {
             (ch == 'i')|| (ch == 'o')|| (ch == 'u'))
                 cout <<"Vowel";
             else
-                cout <<"consonant";
+                cout <<"Consonant";
         }
         else 
             cout <<"invalid";
 	return 0;
 }
+
+
+
