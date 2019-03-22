@@ -11,10 +11,10 @@ int main() {
             if (year % 400 == 0)
                 cout <<"Yes";
             else
-                cout <<"No";
+                cout <<"no";
         }
         else
-            cout <<"Yes";
+            cout <<"yes";
     }
     else
         cout <<"No";
