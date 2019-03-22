@@ -9,7 +9,7 @@ int main() {
         if (year % 100 == 0)
         {
             if (year % 400 == 0)
-                cout <<"Yes";
+                cout <<"yes";
             else
                 cout <<"no";
         }
@@ -17,6 +17,6 @@ int main() {
             cout <<"yes";
     }
     else
-        cout <<"No";
+        cout <<"no";
 	return 0;
 }
