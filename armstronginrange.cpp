@@ -24,7 +24,8 @@ int main()
 
         if(sum == i)
         {
-            cout << i<<" ";
+            cout << i;
+            cout<<" ";
         }
   }
 
