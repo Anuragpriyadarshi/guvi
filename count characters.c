@@ -4,7 +4,6 @@ int main()
 {
 	char string[50];
 	int i,count=0;
-	printf("enter the sentence:");
 	scanf("%[^\n]s",string);
 	for(i=0;string[i]!='\0';i++)
 	{
