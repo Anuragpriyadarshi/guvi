@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(void) {
-char a[200];
-scanf("%[^\n]s",a);
-if(printf("%s",a))
+char str[200];
+scanf("%[^\n]s",str);
+if(printf("%s",str))
 	return 0;
 }
