@@ -17,9 +17,9 @@ int main(void) {
 	}
 	if(count>0)
 	{
-		printf("no");
+		printf("No");
 	}
 	else
-	printf("yes");
+	printf("Yes");
 	return 0;
 }
