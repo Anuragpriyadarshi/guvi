@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main(void) {
+	char a[100];
+	int count=0,i,j,n;
+	scanf("%s",a);
+	n=strlen(a);
+	for(i=0;i<n;i++)
+	{
+		for(j=i+1;j<n;j++)
+		{
+			if(a[i]==a[j])
+			{
+				count=count+1;
+			}
+		}
+	}
+	if(count>0)
+	{
+		printf("no");
+	}
+	else
+	printf("yes");
+	return 0;
+}
