@@ -1,8 +1,7 @@
-x,y=[int(x) for x in input().split()]
-a=[]
-z = input().split()
-for i in range(0,x):
-	a.append(int(z[i]))
-b=a[y+1:]
-c=a[:y+1]
-print(b+c)
+# your code goes here
+x,y=[int(i) for i in input().split()]
+a=[i for i in input().split()]
+a = ''.join(a)
+for i in range(y):
+	a = a[len(a)-1]+a[0:len(a)-1]
+print(' '.join(a))
